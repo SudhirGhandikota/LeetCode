@@ -71,6 +71,7 @@ public class Solution {
 		System.out.println("Serialized Tree is:"+ser);
 		TreeNode new_root = sol.deserialize(ser);
 		System.out.println("De serialize tree:"+sol.serialize(new_root));
+		System.out.println();
 	}	
 
 }
