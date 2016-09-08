@@ -1,7 +1,12 @@
 package LRUCache;
 import java.util.LinkedHashMap;
 import java.util.Iterator;
-
+/*
+ * This class implements the least recently used cache functionality
+ * https://leetcode.com/problems/lru-cache/
+ * It uses a LinkedHasMap which is a HashTable and LinkedList implementation.It maintains a doubly-linked list running through all of its entries
+ * This defines the iteration order(https://docs.oracle.com/javase/7/docs/api/java/util/LinkedHashMap.html)
+ */
 public class lruCache {
 	int capacity;
 	private LinkedHashMap<String,Integer>map;
