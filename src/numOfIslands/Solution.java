@@ -7,6 +7,7 @@ package numOfIslands;
  * Number of different connected components indicate number of islands.
  * For instance if we are able to visit all the nodes of '1' at one go then there is just one island.
  * If not the number of loops to visit all the nodes will be the number of islands
+ * We are going to perform a Depth First traversal of the graph
  */
 public class Solution {
 	public int numIslands(char[][] grid)
