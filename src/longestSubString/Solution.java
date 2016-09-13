@@ -34,9 +34,12 @@ public class Solution {
 		{
 			//the case where the characters is not already present. We add the character to the window
 			if(!set.contains(s.charAt(j)))
-				set.add(s.charAt(j++));
+			{
+				set.add(s.charAt(j));
+				j++;
+			}
 			else
-				i++;
+				set.remove(i++);
 		}
 		String res="";
 		for(char c:set)
