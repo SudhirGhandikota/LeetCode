@@ -4,6 +4,8 @@ public class Solution {
 
 	/*
 	 * Checks whether the str exists in the dictionary or not.
+	 * https://leetcode.com/problems/word-break/
+	 * I/P: s= "leetcode", dict=["leet","code"] O/P: true
 	 */
 	static boolean dictionaryContains(String str)
 	{

@@ -3,6 +3,11 @@ package mergeSortedList;
 import java.util.Comparator;
 import java.util.PriorityQueue;
 
+/*
+ * Solution to 'merge k sorted lists problem'
+ * https://leetcode.com/problems/merge-k-sorted-lists/
+ * 
+ */
 class ListNode
 {
 	int val;
@@ -33,7 +38,6 @@ public class Solution {
 			System.out.print(temp.val+"->");
 			temp = temp.next;
 		}
-
 	}
 
 	private static ListNode merge(ListNode[] lists) {

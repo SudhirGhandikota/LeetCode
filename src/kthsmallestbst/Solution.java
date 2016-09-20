@@ -1,5 +1,9 @@
 package kthsmallestbst;
 
+/*
+ * Solution to kth smallest element in a BST
+ * https://leetcode.com/problems/kth-smallest-element-in-a-bst
+ */
 class TreeNode{
 	int val;
 	TreeNode left;
@@ -33,6 +37,7 @@ public class Solution {
 		KthSmallestHelper(root,k);
 		return res;
 	}
+	//here we reach the left most node(smallest) node and then count the nodes while backtracking. 
 	public void KthSmallestHelper(TreeNode root,int k)
 	{
 		if(root == null)

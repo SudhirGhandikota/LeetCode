@@ -12,7 +12,7 @@ public class Solution {
 	/*
 	 * method returns the path with the longest length
 	 * Strategy is to maintain length of each level in a stack
-	 * if a file is encountered(if the string contains a .) then the length of th path to that file is stored
+	 * if a file is encountered(if the string contains a .) then the length of the path to that file is stored
 	 */
 	public int lengthLongestPath(String input)
 	{

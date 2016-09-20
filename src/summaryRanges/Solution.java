@@ -3,6 +3,11 @@ package summaryRanges;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+ * Solution to summary ranges problem in leetcode
+ * https://leetcode.com/problems/summary-ranges/
+ * We use two pointers pre and end to traverse through the list for ranges
+ */
 public class Solution {
 	List<String> result = new ArrayList();
 	public List<String> summaryRanges(int[] nums)

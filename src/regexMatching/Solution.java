@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 /*
  * This program matches a string and a given regular expression.
+ * https://leetcode.com/problems/regular-expression-matching/
+ * eg: isMatch("aab", "c*a*b") → true; isMatch("ab", ".*") → true; isMatch("aaa","aa") → false
  * 
  */
 public class Solution {
