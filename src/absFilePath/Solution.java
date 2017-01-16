@@ -6,7 +6,7 @@ import java.util.Stack;
  * Solution to "Longest Absolute File path" problem in LeetCode
  * https://leetcode.com/problems/longest-absolute-file-path/
  * Sample I/P: "dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext"
- * O/P: 20(longest path: dir/subdir2/file.ext)
+ * O/P: 20 (longest path: dir/subdir2/file.ext)
  */
 public class Solution {
 	/*
